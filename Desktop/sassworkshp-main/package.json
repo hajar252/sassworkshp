@@ -1,0 +1,16 @@
+{
+  "name": "sassworkshp-main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile":"sass scss/main.scss css/main.css --watch --source-map"
+   },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.69.3"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}

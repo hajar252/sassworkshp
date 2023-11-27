@@ -1,0 +1,39 @@
+//_mixins.scss
+@mixin button($type) {
+    border: 0;
+    padding: 0.75rem 1.5rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    border-radius: 100px;
+    color: white;
+    background-color: rgb(104, 104, 104);
+    background-image: linear-gradient(0deg, color-scale($color-primary, -10%) 0%, color-scale($color-secondary, -10%) 100%);
+
+    cursor: pointer;
+    transition-duration: 0.25s;
+    box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
+  
+    &:hover {
+      background-color: white;
+      box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.50);
+    }
+  
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+  
+  @function color-scale($color, $alpha-offset) {
+    // Votre implémentation pour ajuster l'alpha du $color
+    // Par exemple, vous pourriez utiliser la fonction rgba() pour ajuster l'alpha.
+    @return rgba($color, $alpha-offset);
+  }
+  @function adjust-opacity($color, $alpha-offset) {
+    @return rgba($color, $alpha-offset);
+  }
+  .container {
+    max-width: 1280px;
+    margin: auto;
+    position: relative;
+  }

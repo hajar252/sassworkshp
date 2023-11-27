@@ -1,0 +1,13 @@
+//_variables.scss
+@use "sass:color";
+$color-primary: #9356DC;
+  $color-secondary: #FF79DA;
+  $color-tertiary: #99E2D0;
+  $appPadding: 1rem;
+  
+
+body, html {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+}

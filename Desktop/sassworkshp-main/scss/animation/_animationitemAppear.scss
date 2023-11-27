@@ -1,0 +1,44 @@
+//animation itemAppear
+@keyframes itemAppear {
+    0% {
+      transform: scale(0)
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  .menuItem:nth-child(0) {
+    animation-delay: 1s;
+}
+
+.menuItem:nth-child(1) {
+    animation-delay: 2s;
+}
+
+.menuItem:nth-child(2) {
+    animation-delay: 3s;
+}
+.menuItem:nth-child(3) {
+  animation-delay: 4s;
+}
+
+.menuItem:nth-child(4) {
+  animation-delay: 5s;
+}
+
+.menuItem:nth-child(5) {
+  animation-delay: 6s;
+}
+.menuItem:nth-child(6) {
+  animation-delay: 7s;
+}
+
+.menuItem:nth-child(7) {
+  animation-delay: 2s;
+}
+
+.menuItem:nth-child(8) {
+  animation-delay: 3s;
+}
+
+  
